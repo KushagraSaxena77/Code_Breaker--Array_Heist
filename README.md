@@ -1,6 +1,6 @@
 # Code Breaker: The Array Heist
 
-An interactive web-based game designed to teach and test understanding of array manipulations. Players take on the role of a hacker trying to break into a secure system by manipulating a digital code array to find a hidden password pattern before time runs out.
+An interactive web based game designed for educational pov to test understanding of array manipulations. Players take on the role of a hacker trying to break into a secure system by manipulating a digital code array to find a hidden password pattern before time runs out.
 
 
 <img width="1708" height="943" alt="image" src="https://github.com/user-attachments/assets/a7c94b07-b247-4bdd-a8b7-7fa4a461176c" />
@@ -12,16 +12,16 @@ An interactive web-based game designed to teach and test understanding of array 
 
 ## Features
 
-  - **Visual Array Display**: An interactive, real-time representation of the numeric array with a fixed size of 10 cells.
+  - **Visual Array Display**: An interactive, real time representation of the numeric array with a fixed size of 10 cells.
   - **Core Array Operations**:
       - **Insert**: Add a number (0-9) at a specific index, shifting subsequent elements to the right.
       - **Delete**: Remove a number at a specific index, shifting subsequent elements to the left.
       - **Reset**: Clear the array and start a new game session.
-  - **Pattern Matching**: A linear search algorithm to find a user-defined subarray (e.g., 2,1,4) within the main array.
+  - **Pattern Matching**: A linear search algorithm to find a user defined subarray (ex- 2,1,4) within the main array.
   - **Dynamic Animations**: Smooth CSS animations for all operations (insert, delete, search) provide clear visual feedback on the manipulation of the array structure.
-  - **Real-time Feedback System**: Instant messages inform the user about successful operations, input errors, and the current game status.
-  - **Time Attack Mode**: A 60-second timer adds a layer of urgency and challenge, requiring players to think and act quickly.
-  - **Auto-Generated Puzzles**: A new secret 3-digit pattern is randomly generated for every game, ensuring replayability.
+  - **Real time Feedback System**: Instant messages inform the user about successful operations, input errors, and the current game status.
+  - **Time Attack Mode**: A 60 second timer adds a layer of urgency and challenge, requiring players to think and act quickly.
+  - **Auto Generated Puzzles**: A new secret 3 digit pattern is randomly generated for every game, ensuring replayability.
   - **Audio Feedback**: Simple sound effects generated via the Web Audio API provide auditory cues for key actions like insertion, errors, and winning the game.
 
 -----
@@ -52,14 +52,14 @@ You will need a modern web browser that supports HTML5, CSS3, and JavaScript.
     ```bash
     cd Code_Breaker--Array_Heis
     ```
-3.  Open the `index.html` file in your web browser. No web server is required as this is a fully client-side application.
+3.  Open the `index.html` file in your web browser. No web server is required as this is a fully client side application.
 
 -----
 
 ## How to Play
 
-  - When the game loads, a secret 3-digit pattern is generated. Your goal is to create this pattern within the array.
-  - Your first action (Insert, Delete, or Search) will start the 60-second timer.
+  - When the game loads, a secret 3 digit pattern is generated. Your goal is to create this pattern within the array.
+  - Your first action (Insert, Delete, or Search) will start the 60 second timer.
   - Use the **Insert** panel to add numbers (0-9) at a specific index in the array. The array has a maximum capacity of 10 elements.
   - Use the **Delete** panel to remove a number from a specific index.
   - Once you believe the array contains the secret pattern, enter it in the **Search for Pattern** input field, using commas to separate the numbers (e.g., `3,7,1`).
