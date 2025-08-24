@@ -2,6 +2,7 @@
 
 An interactive web based game designed for educational pov to test understanding of array manipulations. Players take on the role of a hacker trying to break into a secure system by manipulating a digital code array to find a hidden password pattern before time runs out.
 
+## In Game Shots 
 
 <img width="1708" height="943" alt="image" src="https://github.com/user-attachments/assets/a7c94b07-b247-4bdd-a8b7-7fa4a461176c" />
 
