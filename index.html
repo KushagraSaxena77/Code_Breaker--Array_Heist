@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Breaker - The Array Heist</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div id="game-container">
+        <h1>Code Breaker: The Array Heist</h1>
+        
+        <div id="game-info">
+            <div id="secret-pattern-display">Find Pattern: [?, ?, ?]</div>
+            <div id="timer-display">Time: 60</div>
+        </div>
+
+        <div id="array-container"></div>
+
+        <div id="operations-panel">
+            <div class="control-group">
+                <label for="insert-index-input">Insert at Index:</label>
+                <div class="input-group">
+                    <input type="number" id="insert-index-input" placeholder="Index" min="0">
+                    <input type="number" id="insert-value-input" placeholder="Value (0-9)" min="0" max="9">
+                </div>
+                <button id="insert-btn">Insert</button>
+            </div>
+
+            <div class="control-group">
+                <label for="delete-index-input">Delete at Index:</label>
+                <input type="number" id="delete-index-input" placeholder="Index" min="0">
+                <button id="delete-btn">Delete</button>
+            </div>
+
+            <div class="control-group">
+                <label for="search-pattern-input">Search for Pattern:</label>
+                <input type="text" id="search-pattern-input" placeholder="e.g., 2,1,4">
+                <button id="search-btn">Search</button>
+            </div>
+
+            <div class="control-group">
+                <label>Game Controls:</label>
+                 <button id="reset-btn">Reset Game</button>
+            </div>
+        </div>
+
+        <p id="feedback-message"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
